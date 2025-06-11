@@ -6,8 +6,11 @@
     <title>Eddy's portfolio web page </title>
 </head>
 <body>
-    <h1>WELCOME TO MY PORTFOLIO</h1>
-    <audio src="c:\Users\WACHIRA\Music\Kendrick Lamar - peekaboo (Official Audio)(MP3_160K).mp3">your browser cannot rad this</audio>
+    <header>
+    <h1>WELCOME TO MY PORTFOLIO"</h1>
+    <audio controls>
+        <source src="assets/mysterybox.mp3" type="audio/mpeg">
+    </audio>
 <nav>
     <ul>
        <li><a href="#home">home</a></li>
@@ -16,6 +19,7 @@
  <li><a href="#contacts">contacts</a></li>   
     </ul> 
 </nav>
+    </header>
 <section>
     <h2 id="home">WHERE I LIVE: </h2>
     <p>Ruiru,Mugutha Greenridge estate</p>
@@ -29,6 +33,10 @@
     <h2 id="about">Whom am I?</h2>
     <p>I am a 5"10.5 male with great hair and I daily a Koenigsegg Regera</p>
     <p>I also have a pent house in monaco right by my yatcht</p>
+    <video controls>
+        <source src="assets/canva.mp4" type="video/mp4">
+        your browser is weak.
+    </video>
 </section>
 <section>
     <h2 id="contacts">HOW TO REACH ME:</h2>
@@ -37,7 +45,24 @@
         <li>IG: @eddy62190</li>
         <li>X: loydliam </li>
     </ul>
+    <p>CONTACT ME:</p>
+    <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+        <input type="submit" value="Send Message">
+    </form>
     <p>Text me on whatsapp: 0716208682</p>
 </section>
+<footer>
+    <p>Author: Mr. Edd<br>
+    <a href="loydliam37@gmail.com">loydliam37@gmail.com</a></p>
+  </footer>
 </body>
 </html>
